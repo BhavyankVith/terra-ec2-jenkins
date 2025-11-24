@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "demo-jenkins-test"
+    bucket         = "demo-jenkins-test1"
     key            = "ec2/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-locks"
