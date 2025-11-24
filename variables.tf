@@ -1,6 +1,6 @@
 variable "region" {
   description = "AWS Region"
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "instance_ami" {
